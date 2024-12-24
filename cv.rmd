@@ -59,7 +59,7 @@ if(params$pdf_mode){
 }
 ```
 
-Contact {#contact}
+Contato {#contact}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -68,7 +68,7 @@ CV |> print_contact_info()
 
 
 
-Language Skills {#skills}
+Linguagens de Programação {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -188,7 +188,7 @@ CV <- print_section(CV, 'about_me_press')
 
 
 
-Publicações, Posters e Talks {data-icon=book}
+Publicações {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
