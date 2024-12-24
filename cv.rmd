@@ -55,7 +55,7 @@ Aside
 if(params$pdf_mode){
   cat("Veja este CV online com links em _nickstrayer.me/datadrivencv/_")
 } else {
-  cat("[<i class='fas fa-download'></i> Baixe o PDF deste CV](https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Baixe o PDF deste CV](https://github.com/arturdamiao/curriculo-artur/blob/main/cv.pdf)")
 }
 ```
 
