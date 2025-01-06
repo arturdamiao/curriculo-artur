@@ -52,10 +52,12 @@ Aside
 
 
 ```{r}
-if(params$pdf_mode){
-  cat("Veja este CV online com links em _arturdamiao.com/cv/cv_")
+if (params$pdf_mode) {
+  cat("Veja este CV online com links em [_arturdamiao.com/cv/cv_](https://arturdamiao.com/cv/cv)")
 } else {
-  cat("[<i class='fas fa-download'></i> Baixe o PDF deste CV](https://github.com/arturdamiao/curriculo-artur/blob/main/cv.pdf)")
+  cat('<a href="https://raw.githubusercontent.com/arturdamiao/blog/master/static/cv/cv.pdf" download>
+         <i class="fas fa-download"></i> Baixe o PDF deste CV
+       </a>')
 }
 ```
 
