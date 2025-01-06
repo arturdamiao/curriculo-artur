@@ -53,7 +53,7 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("Veja este CV online com links em _https://arturdamiao.com/cv/cv_")
+  cat("Veja este CV online com links em _arturdamiao.com/cv/cv_")
 } else {
   cat("[<i class='fas fa-download'></i> Baixe o PDF deste CV](https://github.com/arturdamiao/curriculo-artur/blob/main/cv.pdf)")
 }
