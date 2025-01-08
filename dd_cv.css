@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 * {
   /* Override default right margin for sidebar*/
   --pagedjs-margin-right: 0.2in;
-  --pagedjs-margin-left: 0.2in;
+  --pagedjs-margin-left: 0.3in;
 }
 
 /* Customize some of the sizing variables */
 :root {
-  --main-text-family: "Raleway", sans-serif;
-  --header-text-family: "Lora", serif;
+  --main-text-family: "Georgia", serif;
+  --header-text-family: "Georgia", serif;
   --main-text-color: #444;
   --header-text-color: #000;
-  --sidebar-width: 12rem; /* Shrink sidebar width  */
+  --sidebar-width: 11rem; /* Shrink sidebar width  */
   --sidebar-background-color: hsl(210, 100%, 98%); /* Make sidebar blue */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 8px; /* Make position deliniating circles larger */
@@ -25,7 +27,7 @@
 /* Update main body text */
 body {
   font-family: var(--main-text-family);
-  font-weight: 300;
+  font-weight: 450;
   line-height: 1.3;
   color: var(--main-text-color);
 }
